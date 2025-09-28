@@ -1,0 +1,61 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Topbar{
+       background-color: #009688;
+}
+.Name{
+       color:#009688; 
+       background-color:#FFF6E0;
+       
+}
+nav{
+       background-color: #FFF6E0;
+} */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffaf0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: teal;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+header{
+  /* padding-left: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px; */
+  border: 2px black double;
+  /* margin-left: 0px; */
+  /* margin-right: 10px; */
+}
+
+nav {
+  background-color: teal;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
