@@ -19,43 +19,64 @@ nav{
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box;*/
+} 
+html{
+  height: 100%;
+}
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(206, 51, 51, 0.447),rgba(46, 46, 136, 0.37)),
+  url("https://images.unsplash.com/photo-1759327847036-22d9bad214bf?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-body {
+/* body {
   background-color: #fffaf0;
   font-family: Arial, sans-serif;
-}
+} */
 
 header {
-  background-color: teal;
+  /* background-color: teal; */
+  font-size: 30px;
   color: white;
   padding: 20px;
   text-align: center;
 }
-header{
+/* header{
   /* padding-left: 0px;
   padding-left: 0px;
   padding-bottom: 0px;
   padding-top: 0px; */
-  border: 2px black double;
+  /* border: 2px black double; */
   /* margin-left: 0px; */
-  /* margin-right: 10px; */
-}
+  /* margin-right: 10px; 
+} */
 
 nav {
-  background-color: teal;
+  /* background-color: teal; */
   padding: 10px;
   text-align: center;
 }
 
 nav a {
-  color: white;
+  /* color: white; */
+  font-size: 25px;
+  color: rgb(202, 212, 205);
   text-decoration: none;
-  margin: 0 15px;
+  margin: 0 20px;
   font-weight: bold;
 }
 
 nav a:hover {
   text-decoration: underline;
+}
+.Quote  {
+  text-align: left;
+  font-style: italic;
+  color: #dde4df;
+  font-size: 20px;
 }
