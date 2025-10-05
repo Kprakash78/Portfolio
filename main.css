@@ -29,7 +29,7 @@ body {
   background-image: linear-gradient(rgba(206, 51, 51, 0.447),rgba(46, 46, 136, 0.37)),
   url("https://images.unsplash.com/photo-1759327847036-22d9bad214bf?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
-  background-position: center;  
+  background-position: top;  
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -46,7 +46,13 @@ header {
   padding: 20px;
   text-align: center;
 }
-/* header{
+h1{
+  display: inline-block;
+  height: auto;width: auto;
+  padding: 0px;
+  box-shadow: 0px 10px 8px #ec864fd3;
+  text-shadow:2px 2px 4px #c45011e6 ;
+}/* header{
   /* padding-left: 0px;
   padding-left: 0px;
   padding-bottom: 0px;
@@ -69,6 +75,7 @@ nav a {
   text-decoration: none;
   margin: 0 20px;
   font-weight: bold;
+  text-shadow: 2px 2px 4px #c45011e6;
 }
 
 nav a:hover {
@@ -78,5 +85,13 @@ nav a:hover {
   text-align: left;
   font-style: italic;
   color: #dde4df;
-  font-size: 20px;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px #f2500ae6;
+  margin: 20px;
+  /* margin-bottom: 20px;
+  margin-right: 50px;
+  padding-right: 100px; */
+  position: relative;
+  left: -8%;
+  top: 15px;
 }
