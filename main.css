@@ -50,9 +50,23 @@ h1{
   display: inline-block;
   height: auto;width: auto;
   padding: 0px;
+  margin-bottom: 20px;
   box-shadow: 0px 10px 8px #ec864fd3;
-  text-shadow:2px 2px 4px #c45011e6 ;
-}/* header{
+  text-shadow:2px 2px 4px rgba(0, 0, 0, 0.6) ;
+}
+.Subtitle{
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+  text-shadow:2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.subtitle-text{
+  display: inline-block;
+  box-shadow: 0px 10px 8px #ec864fd3;
+}
+/* header{
   /* padding-left: 0px;
   padding-left: 0px;
   padding-bottom: 0px;
@@ -71,11 +85,13 @@ nav {
 nav a {
   /* color: white; */
   font-size: 25px;
-  color: rgb(202, 212, 205);
+  color: white;
   text-decoration: none;
   margin: 0 20px;
   font-weight: bold;
-  text-shadow: 2px 2px 4px #c45011e6;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+
 }
 
 nav a:hover {
@@ -86,12 +102,21 @@ nav a:hover {
   font-style: italic;
   color: #dde4df;
   font-size: 18px;
-  text-shadow: 2px 2px 4px #f2500ae6;
-  margin: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin-top: 90px;
   /* margin-bottom: 20px;
   margin-right: 50px;
   padding-right: 100px; */
   position: relative;
-  left: -8%;
+  left: -5%;
   top: 15px;
+}
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+.image{
+  margin-left: 0%;
 }
